@@ -7,7 +7,7 @@ Created on Thu Aug 13 15:35:20 2020
 import cv2
 import numpy as np
 
-def stackImages(scale, imgArray):
+def stackImages(scale, imgArray): //stackImages***
     rows = len(imgArray)
     cols = len(imgArray[0])
     rowsAvailable = isinstance(imgArray[0], list)  
