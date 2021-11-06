@@ -13,7 +13,7 @@ def Load_Source(folder_path):
     return dir_list
 
 
-def Load_Image(dir_list):
+def Load_Image(dir_list):  //load
     imgdir_list = os.listdir(dir_list)
     print(imgdir_list)
     img_list = []
