@@ -6,7 +6,7 @@ Created on Thu Aug 13 15:35:20 2020
 """
 import cv2
 import numpy as np
-
+//???
 def stackImages(scale, imgArray):
     rows = len(imgArray)
     cols = len(imgArray[0])
